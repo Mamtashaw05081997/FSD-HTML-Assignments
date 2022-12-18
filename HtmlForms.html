@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <form>
+        <h2>Registration Form</h2>
+        <label id="name-label" for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Entre Your Name" required><br><br>
+        <label id="email-label" for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="Test@gmail.com" required><br><br>
+        <label id="roll no" for="roll no.">Roll.No</label>
+        <input type="number-label" name="number" id="number" placeholder="number" min="0" max="100" required><br><br>
+        <label for="drop-down">How do you rate our courses?</label><br><br>
+        <select id="drop-down">
+            <option value="Outstanding">Outstanding</option>
+            <option value="excellent">Excellent</option>
+            <option value="Very Good">Very Good</option>
+            <option value="Good">Good</option>
+            <option value="Fair">Fair</option>
+            <option value="Poor">Poor</option>
+
+        </select><br>
+        <label for="Checkbox">Your favorite topic in HTML.</label><br>
+        <input type="checkbox" name="Tpoic-1" value="Structural Elements">Structural Elements<br>
+        <input type="checkbox" name="Tpoic-2" value="Links and Lists">Links and Lists <br>
+        <input type="checkbox" name="Tpoic-3" value="Grouping Elements">Grouping Elements<br>
+        <input type="checkbox" name="Tpoic-4" value="HTML Media">HTML Media<br>
+        <input type="checkbox" name="Tpoic-5" value="HTML Forms">HTML Forms<br>
+        <input type="checkbox" name="Tpoic-6" value="HTML Tables">HTML Tables<br>
+        <label>Do you like the HTML course?</label><br>
+        <input type="radio" name="course" value="yes">Yes<br>
+        <input type="radio" name="course" value="no">No<br>
+        <label>Few words about course</label><br>
+        <textarea row="5" cols="50" name="description" id="description"></textarea><br><br>
+        <button type="button" onclick="alert ('Submitted') " >Submit</button>
+
+
+    </form>
+</body>
+
+</html>
